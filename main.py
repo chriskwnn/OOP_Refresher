@@ -31,7 +31,7 @@ polymorphism:
 the ability of your class to use different logic depending on the object type being used to call. 
 For example, when you use len() it will return the length differently when given a list and when given a string. 
 Similarly, if I create a Keyboard class that applies discount in a different way than normally, this is called polymorphism.
-Here Keyboard objects have an additional 20% discount to whatever discount you apply
+Here Keyboard objects have an additional 10% discount to whatever discount you apply
 '''
 keyboard1 = Keyboard("razor", 100, 1)
 print(keyboard1)
